@@ -162,6 +162,11 @@ IB_DESIGNABLE
 @property (nonatomic, assign) UIEdgeInsets linkBackgroundEdgeInset;
 
 /**
+ Enable the background highlighted view to be outside the text bounds
+ */
+@property (nonatomic, assign) BOOL highlightedOutOfBoundsEnable;
+
+/**
  Indicates if links will be detected within an extended area around the touch
  to emulate the link detection behaviour of UIWebView. 
  Default value is NO. Enabling this may adversely impact performance.
